@@ -1,0 +1,30 @@
+.card-art {
+  background-color: var(--gray);
+  color: var(--white);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--white);
+  margin-bottom: 10px;
+  padding: 5px;
+
+  & img {
+    width: 150px;
+    border-radius: 10px;
+  }
+
+  & .text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+
+    & h2 {
+      color: var(--primary-color);
+    }
+  }
+}
