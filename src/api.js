@@ -1,4 +1,4 @@
-const API_URL = "http://api.mediastack.com/v1/news";
+const API_URL = "https://api.mediastack.com/v1/news";
 const KEY = import.meta.env.VITE_KEY;
 
 export async function fetchNews() {
