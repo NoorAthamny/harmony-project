@@ -1,11 +1,11 @@
 const API_URL = "https://api.mediastack.com/v1/news";
-const KEY = import.meta.env.VITE_KEY;
+const VITE_KEY = import.meta.env.VITE_KEY;
 
 export async function fetchNews() {
   const params = new URLSearchParams({
     languages: "en",
     countries: "us,il,ae",
-    access_key: KEY,
+    access_key: VITE_KEY,
     keywords: "israel,palestine",
     limit: 10,
   });
